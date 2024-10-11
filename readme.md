@@ -1,19 +1,21 @@
 # Project Title
-To-Do-App
+**To-Do App**
 
-# My Approach
-- For the i use MVC architecture
-- First i set the app.ts file for routing end points and mi.ddleware usages and then i export that defualtly and import it into the server.ts file  creating the server {posrt is on 8000}.
-- After this i set the router endpoints for each functionalities like add-post, fetch-post, fetch-post-by-id, update-post, and delete-task i set all this in the src/routes folder.
-- Then i set all the functionalities in the src/controllers folder to imporve the code neatness.
+## My Approach
+- For this task, I used the MVC architecture.
+- First, I set up the `app.ts` file for routing endpoints and middleware usages, then exported it and imported it into the `server.ts` file to create the server (port is set to 3000).
+- I defined the router endpoints for each functionality, such as `add-task`, `fetch-tasks`, `fetch-task-by-id`, `update-task`, and `delete-task`, all located in the `src/routes` folder.
+- Then, I implemented the functionalities in the `src/controllers` folder to maintain code organization and neatness.
 
 ## Overview
+This API provides basic CRUD operations to manage tasks, allowing users to create, read, update, and delete tasks efficiently.
 
 ## Setup and Installation
-- For running my application clone the project or download the zip file.
-- Then just use this command "npm init" for npm inetialization
-- then run the "npm start" command
-- Server is running on "http://localhost:3000/api/v1/to-do"
+1. Clone the project or download the zip file.
+2. Navigate to the project directory in your terminal.
+3. Run the command: 
+   ```bash
+   npm init -y
 
 ## Endpoints
 ### 1. Create a Task
